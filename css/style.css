@@ -13,7 +13,7 @@
 
     h1.hero {
         font-size: 1rem;
-        text-shadow: -1px -1px blue;
+        text-shadow: -0.5px -0.5px blue;
     }
 }
 
