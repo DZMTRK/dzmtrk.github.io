@@ -6,8 +6,8 @@
 
 
 body {
-width: 95%;
-margin: 0 auto;
+    width: 95%;
+    margin: 0 auto;
 }
 
 
@@ -44,7 +44,7 @@ nav {
     justify-content: right;
 }
 
-ul.navigation li{
+ul.navigation li {
     display: inline-block;
     padding: 10px 2px;
 }
@@ -94,21 +94,36 @@ footer {
 
 /* miscellaneous */
 .blockOfCode {
-    color:chartreuse;
+    color: chartreuse;
     list-style-type: none;
     background-color: black;
     margin: 20px 0;
     padding: 20px;
 }
 
-.blockOfCode li{
+.blockOfCode li {
     list-style-type: none;
-    line-height: 2rem;    
+    line-height: 2rem;
 }
 
 .list {
-    font-size:  1.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     font-style: italic;
     padding: 20px 4%;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /*HEADER SECTION*/
+    header {
+        background: url(../img/3lwd.gif) center/cover no-repeat;
+        padding: 50px 0;
+    }
+
+    h1.hero {
+        font-size: 2em;
+        font-weight: 700;
+        text-shadow: -7px -7px blue;
+    }
 }
