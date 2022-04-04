@@ -8,14 +8,12 @@
 
     /*HEADER SECTION*/
     header {
-        background: url(../img/3lwd.gif) center/cover no-repeat;
         padding: 0;
     }
 
     h1.hero {
         font-size: 1rem;
-        font-weight: 700;
-        text-shadow: -7px -7px blue;
+        text-shadow: -1px -1px blue;
     }
 }
 
