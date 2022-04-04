@@ -5,11 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
-
-
 body {
-    width: 95%;
-    margin: 0 auto;
+width: 95%;
+margin: 0 auto;
 }
 
 
@@ -46,7 +44,7 @@ nav {
     justify-content: right;
 }
 
-ul.navigation li {
+ul.navigation li{
     display: inline-block;
     padding: 10px 2px;
 }
@@ -96,33 +94,21 @@ footer {
 
 /* miscellaneous */
 .blockOfCode {
-    color: chartreuse;
+    color:chartreuse;
     list-style-type: none;
     background-color: black;
     margin: 20px 0;
     padding: 20px;
 }
 
-.blockOfCode li {
+.blockOfCode li{
     list-style-type: none;
-    line-height: 2rem;
+    line-height: 2rem;    
 }
 
 .list {
-    font-size: 1.5rem;
+    font-size:  1.5rem;
     font-weight: 700;
     font-style: italic;
     padding: 20px 4%;
-}
-
-@media only screen and (max-width: 500px) {
-
-    /*HEADER SECTION*/
-    header {
-        padding: 0;
-    }
-
-    h1.hero {
-        font-size: 3rem;
-    }
 }
