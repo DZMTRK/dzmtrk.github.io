@@ -1,44 +1,114 @@
+/* * {
+    border: 1px solid red;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+width: 95%;
+margin: 0 auto;
+}
+
+
+/*HEADER SECTION*/
 header {
-    background-image: url('../img/pattern.jpeg');
+    background: url(../img/3lwd.gif) center/cover no-repeat;
+    padding: 50px 0;
 }
 
-#brushes h2 {
-    background-color: mediumspringgreen;
+.hero {
+    color: rgb(230, 247, 0);
+    text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-#frames h2 {
-    background-color: lightcoral;
+h1.hero {
+    font-size: 6em;
+    font-weight: 700;
+    text-shadow: -7px -7px blue;
 }
 
-#paint h2 {
-    background-color: skyblue;
+
+/*NAVIGATION SECTION*/
+nav {
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow: 0 10px 10px rgb(202, 202, 202);
+    margin-bottom: 10px;
 }
 
-h1 {
-   font-family: Helvetica, Arial, sans-serif;
-   font-size: 100px;
-   font-weight: bold;
-   text-align: center;
-   color: khaki;
+.navigation {
+    display: flex;
+    justify-content: right;
 }
 
-.goods h2 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
+ul.navigation li{
+    display: inline-block;
+    padding: 10px 2px;
 }
 
-.goods h3 {
-    font-family: Helvetica, Arial, sans-serif;
+/* MAIN SECTION */
+main {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.goods p {
-    font-family: Helvetica, Arial, sans-serif;
+main h2 {
+    font-size: 2.5rem;
+    margin-top: 20px;
 }
 
-.goods span {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    color: blue;
+main h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.5rem;
+    text-indent: 4%;
+    text-align: justify;
+}
+
+
+
+/*FOOTER SECTION*/
+footer {
+    background-color: rgb(43, 43, 43);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+}
+
+.contact {
+    color: lightgray;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* miscellaneous */
+.blockOfCode {
+    color:chartreuse;
+    list-style-type: none;
+    background-color: black;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.blockOfCode li{
+    list-style-type: none;
+    line-height: 2rem;    
+}
+
+.list {
+    font-size:  1.5rem;
+    font-weight: 700;
+    font-style: italic;
+    padding: 20px 4%;
 }
