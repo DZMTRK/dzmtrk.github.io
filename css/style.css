@@ -4,6 +4,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+@media only screen and (max-width: 500px) {
+
+    /*HEADER SECTION*/
+    header {
+        background: url(../img/3lwd.gif) center/cover no-repeat;
+        padding: 0;
+    }
+
+    h1.hero {
+        font-size: 10px;
+        font-weight: 700;
+        text-shadow: -7px -7px blue;
+    }
+}
+
 
 body {
     width: 95%;
@@ -113,17 +128,3 @@ footer {
     padding: 20px 4%;
 }
 
-@media only screen and (max-width: 480px) {
-
-    /*HEADER SECTION*/
-    header {
-        background: url(../img/3lwd.gif) center/cover no-repeat;
-        padding: 50px 0;
-    }
-
-    h1.hero {
-        font-size: 2em;
-        font-weight: 700;
-        text-shadow: -7px -7px blue;
-    }
-}
