@@ -60,3 +60,12 @@
 .jsc:hover {
     background-color: rgb(237, 240, 98);
 }
+
+.inf{
+    background-color: rgb(255, 255, 255);
+    border: 20px solid rgb(187, 187, 187);
+}
+
+.inf:hover {
+    background-color: rgb(218, 218, 218);
+}
