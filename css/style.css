@@ -125,4 +125,10 @@ footer {
     h1.hero {
         font-size: 3rem;
     }
+
+    /*NAVIGATION SECTION*/
+
+    ul.navigation li {
+        padding: 2px 2px;
+    }
 }
