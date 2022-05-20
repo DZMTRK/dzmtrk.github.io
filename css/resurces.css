@@ -1,6 +1,7 @@
 .control-me {
     display: none;
   }
+
   #toggle_VScode {
     display: none;
   }
@@ -9,9 +10,6 @@
   }
 
 
-.control-me {
-    display: none;
-  }
   #toggle_CSS_Transitions_and_Animation {
     display: none;
   }
