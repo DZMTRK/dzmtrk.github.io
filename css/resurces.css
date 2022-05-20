@@ -1,0 +1,20 @@
+.control-me {
+    display: none;
+  }
+  #toggle_VScode {
+    display: none;
+  }
+  #toggle_VScode:checked ~ .control-me {
+    display: contents;
+  }
+
+
+.control-me {
+    display: none;
+  }
+  #toggle_CSS_Transitions_and_Animation {
+    display: none;
+  }
+  #toggle_CSS_Transitions_and_Animation:checked ~ .control-me {
+    display: contents;
+  }
